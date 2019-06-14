@@ -1,0 +1,45 @@
+/* TABLE */
+.save {
+  display: none;
+}
+.table {
+  width: 100%;
+}
+.table-row {
+  height: 50px;
+  display: flex;
+}
+.table-head {
+  background-color: darkblue;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.table-name,
+.table-phone {
+  width: 30%;
+  height: 50px;
+}
+
+/* BUTTON */
+.btn-style {
+  height: 40px;
+  width: 200px;
+  background-color: darkblue;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* FORM */
+.form {
+  margin-top: 30px;
+}
+#new_name,
+#new_phone {
+  height: 30px;
+  width: 250px;
+  font-size: 14px;
+  color: black;
+}
